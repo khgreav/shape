@@ -31,7 +31,7 @@ set(GoogleTest_INCLUDE_DIR
     ${GTEST_INCLUDE_DIR}
     ${GMOCK_INCLUDE_DIR})
 
-set(GoogleTest_LIBRARIES optimized gtest optimized gmock debug gtestd debug gmockd)
+set(GoogleTest_LIBRARIES optimized gtest optimized gmock)
 
 INCLUDE(FindPackageHandleStandardArgs)
 find_package_handle_standard_args(GoogleTest DEFAULT_MSG
